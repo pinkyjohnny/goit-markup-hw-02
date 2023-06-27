@@ -1,3 +1,6 @@
+.root {
+    --defolt-background: #FFFFFF;
+}
 .list {
     list-style: none;
 }
@@ -9,7 +12,9 @@
 body {
 font-family: Roboto, sans-serif;
 
-color: #4D5AE5;
+color: #434455;
+
+background-color: var(--defolt-background);
 
 }
 
@@ -85,9 +90,21 @@ color: #4D5AE5;
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.17;
+    letter-spacing: 0.54;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-color {
+font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    
+    color: #2e2f42; 
 }
 
 .logo-link-theme-light {
@@ -96,17 +113,6 @@ color: #4D5AE5;
 
 .logo-link-theme-dark {
     color: #F4F4FD;
-}
-
-.logo-color {
-font-size: 18px;
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    line-height: 1.2;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    
-    color: #4D5AE5; 
 }
 
 .menu-link {
@@ -120,7 +126,6 @@ font-size: 18px;
 
 .contact-email {
     font-size: 16px;
-        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.32px;
 
@@ -129,12 +134,11 @@ font-size: 18px;
 
 .contact-email:hover,
 .contact-email:focus {
-color: #404BBF;
+color: #404bbf;
 }
 
 .contact-phone-number {
     font-size: 16px;
-        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.32px;
 
@@ -144,6 +148,10 @@ color: #404BBF;
 .contact-phone-number:hover,
 .contact-phone-number:focus {
     color: #404BBF;
+}
+
+.address {
+    font-style: normal;
 }
 
 .page-header {
@@ -218,7 +226,8 @@ color: #404BBF;
 font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 
     color: #4D5AE5;
     background-color: #F4F4FD;
