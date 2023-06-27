@@ -1,0 +1,244 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+font-family: Roboto, sans-serif;
+
+color: #4D5AE5;
+
+}
+
+
+/**
+  |============================
+  | Components
+  |============================
+*/
+.modal-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    
+    background-color: #4D5AE5;
+    color: #FFF;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--ocean, #404BBF);
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+
+    color: #2E2F42;
+}
+
+.page-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+    color: #434455;
+}
+
+.page-text-theme-light {
+    color: #434455;
+}
+
+.page-text-theme-dark {
+    color: #F4F4FD;
+}
+/**
+  |============================
+  | /Components
+  |============================
+*/
+/**
+  |============================
+  | Header
+  |============================
+*/
+.logo-link {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-link-theme-light {
+    color: #2E2F42;
+}
+
+.logo-link-theme-dark {
+    color: #F4F4FD;
+}
+
+.logo-color {
+font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    
+    color: #4D5AE5; 
+}
+
+.menu-link {
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+        color: #2E2F42;
+}
+
+.contact-email {
+    font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+        color: #434455;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+color: #404BBF;
+}
+
+.contact-phone-number {
+    font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+        color: #434455;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #404BBF;
+}
+
+.page-header {
+    background-color: #FFFFFF;
+}
+/**
+  |============================
+  | /Header
+  |============================
+*/
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.main-title {
+    font-size: 56px;
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+
+        color: #FFF;
+        text-align: center;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+/**
+  |============================
+  | /Hero
+  |============================
+*/
+/**
+  |============================
+  | Main
+  |============================
+*/
+.section-background {
+    background-color: #FFF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+/**
+  |============================
+  | /Main
+  |============================
+*/
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer {
+    background-color: #2E2F42;
+}
+/**
+  |============================
+  | /Footer
+  |============================
+*/
+/* Portfolio page */
+/**
+  |============================
+  | Filters
+  |============================
+*/
+.filter-btn {
+font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+.failter-btn:hover,
+.filter-btn:focus {
+    background: var(--ocean, #404BBF);
+    color: #FFFFFF;
+}
+/**
+  |============================
+  | /Filters
+  |============================
+*/
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+.portfolio-page-section {
+    background-color: #FFFFFF;
+}
