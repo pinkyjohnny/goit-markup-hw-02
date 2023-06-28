@@ -149,6 +149,10 @@ body {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .page-header {
   background-color: #ffffff;
 }
