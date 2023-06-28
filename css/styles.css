@@ -1,6 +1,8 @@
-.root {
+:root {
   --defolt-background: #ffffff;
+  --dominant-color: #434455;
 }
+
 .list {
   list-style: none;
 }
@@ -90,7 +92,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54;
+  letter-spacing: 0.03;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -128,34 +130,18 @@ body {
   color: #404bbf;
 }
 
-.contact-email {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-
-  color: #434455;
-}
-
-.contact-email:hover,
-.contact-email:focus {
-  color: #404bbf;
-}
-
-.contact-phone-number {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-
-  color: #434455;
-}
-
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-  color: #404bbf;
-}
-
 .address {
+  font-size: 16px;
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  color: #434455;
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
 }
 
 .page-header {
