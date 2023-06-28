@@ -130,44 +130,24 @@ body {
   color: #404bbf;
 }
 
-.contact-email {
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 
-        color: #434455;
   color: #434455;
 }
 
-.contact-email:hover,
-.contact-email:focus {
-color: #404bbf;
+.contact:hover,
+.contact:focus {
   color: #404bbf;
-}
-
-.contact-phone-number {
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-
-        color: #434455;
-  color: #434455;
-}
-
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: #404BBF;
   color: #404bbf;
 }
 
 .address {
-    font-style: normal;
   font-style: normal;
 }
 
@@ -270,8 +250,8 @@ color: #404bbf;
 }
 
 .failter-btn:hover {
-  background: var(--ocean, #404bbf)
-  color: #FFFFFF;
+  background: var(--ocean, #404bbf);
+  color: #ffffff;
 }
 .filter-btn:focus {
   background: var(--ocean, #404bbf);
