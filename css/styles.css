@@ -92,7 +92,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -128,6 +128,47 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.contact-email {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+        color: #434455;
+  color: #434455;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+color: #404bbf;
+  color: #404bbf;
+}
+
+.contact-phone-number {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+        color: #434455;
+  color: #434455;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #404BBF;
+  color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+  font-style: normal;
 }
 
 .address {
@@ -228,7 +269,10 @@ body {
   background-color: #f4f4fd;
 }
 
-.failter-btn:hover,
+.failter-btn:hover {
+  background: var(--ocean, #404bbf)
+  color: #FFFFFF;
+}
 .filter-btn:focus {
   background: var(--ocean, #404bbf);
   color: #ffffff;
