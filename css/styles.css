@@ -141,27 +141,11 @@ body {
   color: #434455;
 }
 
-.contact:hover,
+.contact:hover {
+  color: #404bbf;
+}
+
 .contact:focus {
-  color: #404bbf;
-  color: #404bbf;
-}
-
-.address {
-  font-style: normal;
-}
-
-.address {
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-
-  color: #434455;
-}
-
-.address:hover,
-.address:focus {
   color: #404bbf;
 }
 
@@ -249,7 +233,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.failter-btn:hover {
+.filter-btn:hover {
   background: var(--ocean, #404bbf);
   color: #ffffff;
 }
